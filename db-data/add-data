@@ -1,0 +1,29 @@
+INSERT INTO departments(name, manager, booksnum)
+VALUES
+("Classics","John Doe",123),
+("Fantasy","Jane Smith",321),
+("Philosophy","Adam Smith",95),
+("Engineering","Nikola Tesla", 4);
+
+INSERT INTO books(bookname, author, genre,ageRating)
+VALUES
+("Les Miserables","Victor Hugo","Classics","PG13"),
+("Kafka on the Shore","Haruki Murakami","Fantasy","NC-17");
+
+INSERT INTO account(username, password, type)
+VALUES
+("the cool reader","1234","customer"),
+("bla","password","employee"),
+("a","a","customer"),
+("admin","admin","customer"),
+("john","doe","employee"),
+("hobbit","ilovecoffee","customer");
+
+INSERT INTO  customer(username,firstname, surname,age,favgenres)
+VALUES
+("hobbit","Zuul","Parker",15,"[Classics, Fantasy, Comedy]"),
+("the cool reader","Ray","Marshmallow",21,"[Romance, Fantasy,Philosophy]");
+
+INSERT INTO  employee(username,firstname, lastname)
+VALUES
+("john","John","Doe");
